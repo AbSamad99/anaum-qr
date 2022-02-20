@@ -17,8 +17,10 @@ import "./CustomForm.css";
 
 const CustomForm = () => {
   const [errors, setErrors] = useState({});
-  const [name, setName] = useState();
-  const [regNum, setRegNum] = useState();
+  const [name, setName] = useState(
+    "Anaum Trading Company LLC شركة انعم التجارية ذ م م"
+  );
+  const [regNum, setRegNum] = useState(310731485600003);
   const [timeStamp, setTimeStamp] = useState();
   const [invoiceTotal, setInvoiceTotal] = useState();
   const [vatTotal, setVatTotal] = useState();
@@ -99,7 +101,7 @@ const CustomForm = () => {
 
   const setTotalAndVatAmount = (value) => {
     setInvoiceTotal(value);
-    setVatTotal((value * 3) / 23);
+    setVatTotal(((value * 3) / 23).toFixed(2));
   };
 
   return (
