@@ -117,6 +117,7 @@ const CustomForm = () => {
                   setValue={setName}
                   error={errors.name}
                   resetSingleError={resetSingleError}
+                  defaultValue="Anaum Trading Company LLC شركة انعم التجارية ذ م م "
                 />
                 <FormInput
                   id="regNum"
@@ -126,6 +127,7 @@ const CustomForm = () => {
                   setValue={setRegNum}
                   error={errors.regNum}
                   resetSingleError={resetSingleError}
+                  defaultValue={310731485600003}
                 />
                 <FormInput
                   id="timeStamp"

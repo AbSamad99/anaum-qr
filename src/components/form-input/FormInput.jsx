@@ -11,6 +11,7 @@ const FormInput = ({
   error,
   resetSingleError,
   value,
+  defaultValue,
 }) => {
   const handleChange = (event) => {
     resetSingleError(id);
@@ -28,6 +29,7 @@ const FormInput = ({
         onChange={handleChange}
         isInvalid={error ? true : false}
         value={value}
+        defaultValue={defaultValue}
       />
       <Form.Control.Feedback type="invalid">{error}</Form.Control.Feedback>
     </Form.Group>
