@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anaum-qr/static/css/main.303a0df6.css",
+    "main.js": "/anaum-qr/static/js/main.b0331e3a.js",
+    "static/js/787.c1112931.chunk.js": "/anaum-qr/static/js/787.c1112931.chunk.js",
+    "index.html": "/anaum-qr/index.html",
+    "main.303a0df6.css.map": "/anaum-qr/static/css/main.303a0df6.css.map",
+    "main.b0331e3a.js.map": "/anaum-qr/static/js/main.b0331e3a.js.map",
+    "787.c1112931.chunk.js.map": "/anaum-qr/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.303a0df6.css",
+    "static/js/main.b0331e3a.js"
+  ]
+}
